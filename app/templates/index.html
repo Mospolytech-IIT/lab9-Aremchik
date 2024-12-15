@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% block content %}
-<!-- USERS SECTION -->
+
 <h2>Users</h2>
 <form action="/users/create" method="post">
   <input type="text" name="username" placeholder="Username" required />
@@ -23,7 +23,6 @@
   {% endfor %}
 </ul>
 
-<!-- POSTS SECTION -->
 <h2>Posts</h2>
 <form action="/posts/create" method="post">
   <input type="text" name="title" placeholder="Title" required />
